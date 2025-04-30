@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    background-color: #feffd8;
+    direction: rtl;
+
+}
+
+.quiz-container {
+    background-color: #dec3f6;
+    width: 300px;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+#answers button {
+    display: block;/*يخلي كل زر ينزل تحت الثاني وياخذ كامل العرض*/
+    margin: 10px auto;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background: #eee;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+
+  #answers button:hover {
+    background: #dcdcdc;
+  }
+  
+  .correct {
+    background-color: green;
+    color: rgb(53, 253, 8);
+  }
+  
+  .incorrect {
+    background-color: red;
+    color: rgb(239, 10, 10);
+  }
